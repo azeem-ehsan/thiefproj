@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1892209735}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.59
-  m_Speed: 4.75
+  m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5802a260d28a3dc46a72dbe8613dc81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collider: {fileID: 0}
 --- !u!1001 &495045925478199978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380,11 +381,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: cbcf24b2ea3168441beddd169b5acf21,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'foot.L'\n\tTransform 'foot.L'\n\tFrom animation
-        clip 'Running2'\n\tFrom animation clip 'Running2'\n\tFrom animation clip
-        'Running2'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: cbcf24b2ea3168441beddd169b5acf21,
         type: 3}

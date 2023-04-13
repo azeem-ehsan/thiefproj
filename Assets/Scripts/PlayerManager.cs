@@ -117,4 +117,22 @@ public class PlayerManager : MonoBehaviour
         playerAnimator.SetFloat("moveX", MovementAmount.x);
         playerAnimator.SetFloat("moveZ", MovementAmount.y);
     }
+
+
+
+
+
+/////////
+
+    public void PlayPickup_Anim()
+        {
+            playerAnimator.SetTrigger("pickup");
+        }
+
+
+
+
+
+
+
 }

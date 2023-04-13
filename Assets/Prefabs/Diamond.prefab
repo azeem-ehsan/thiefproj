@@ -79,6 +79,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DiamondParticle: {fileID: 3529213742014222509}
   DiamondMesh: {fileID: 4976988704381433626}
+  myTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &5318954615138699851
 PrefabInstance:
   m_ObjectHideFlags: 0
